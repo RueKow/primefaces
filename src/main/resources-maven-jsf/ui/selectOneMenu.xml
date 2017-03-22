@@ -189,6 +189,12 @@
             <defaultValue>true</defaultValue>
             <description>Calculates a fixed width based on the width of the maximum option label. Set to false for custom width.</description>
         </attribute>
+        <attribute>
+            <name>placeholder</name>
+            <required>false</required>
+            <type>java.lang.String</type>
+            <description>Displays a hint in case of empty item.</description>
+        </attribute>
 	</attributes>
     <resources>
         <resource>
